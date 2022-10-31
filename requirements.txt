@@ -1,9 +1,10 @@
 Flask
+opencv-python-headless
 sklearn
 pandas
 numpy
 matplotlib
 gunicorn
 PyWavelets
-opencv-python
+
 
