@@ -18,7 +18,7 @@ function init() {
     dz.on("complete", function (file) {
         let imageData = file.dataURL;
         
-        var url = "./classify_image";
+        var url = "https://facerecognitionsn.herokuapp.com/classify_image";
 
         $.post(url, {
             image_data: file.dataURL
